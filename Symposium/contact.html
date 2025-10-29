@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | International Symposium on AI & Data Science</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h2>AI & Data Science Symposium</h2>
+                <p>SAARC Nations Collaboration</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with the symposium organizers</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-intro">
+                <h2>We're Here to Help</h2>
+                <p>If you have any questions about the symposium, registration process, or need additional information, please don't hesitate to contact our organizing team.</p>
+            </div>
+
+            <div class="contact-main">
+                <div class="organizers-section">
+                    <h2>Symposium Organizers</h2>
+                    <div class="organizers-grid">
+                        <div class="organizer-card">
+                            <div class="organizer-header">
+                                <div class="organizer-icon">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div class="organizer-name">
+                                    <h3>Prof. Sudhir Kumar</h3>
+                                    <p>Dean (Research and Internationalization)</p>
+                                </div>
+                            </div>
+                            <div class="organizer-details">
+                                <p><i class="fas fa-envelope"></i> sudhir.syal@juitsolan.in</p>
+                                <p><i class="fas fa-phone"></i> 01792 - 239231, +91-9805627899</p>
+                            </div>
+                        </div>
+                        
+                        <div class="organizer-card">
+                            <div class="organizer-header">
+                                <div class="organizer-icon">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div class="organizer-name">
+                                    <h3>Prof. P. K. Gupta</h3>
+                                    <p>Professor (CSE & IT)</p>
+                                </div>
+                            </div>
+                            <div class="organizer-details">
+                                <p><i class="fas fa-envelope"></i> pradeepkumar.gupta@juitsolan.in</p>
+                                <p><i class="fas fa-phone"></i> 01792 - 239242, +91-9805193854</p>
+                            </div>
+                        </div>
+                        
+                        <div class="organizer-card">
+                            <div class="organizer-header">
+                                <div class="organizer-icon">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div class="organizer-name">
+                                    <h3>Dr. Vikas Baghel</h3>
+                                    <p>Associate Professor (ECE)</p>
+                                </div>
+                            </div>
+                            <div class="organizer-details">
+                                <p><i class="fas fa-envelope"></i> vikas.baghel@juitsolan.in</p>
+                                <p><i class="fas fa-phone"></i> 01792 - 239268, +91-9878330166</p>
+                            </div>
+                        </div>
+                        
+                        <div class="organizer-card">
+                            <div class="organizer-header">
+                                <div class="organizer-icon">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div class="organizer-name">
+                                    <h3>Dr. Tanmay Gupta</h3>
+                                    <p>Assistant Professor (CE)</p>
+                                </div>
+                            </div>
+                            <div class="organizer-details">
+                                <p><i class="fas fa-envelope"></i> tanmay.gupta@juitsolan.in</p>
+                                <p><i class="fas fa-phone"></i> 01792 - 239329, +91-8107392059</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Your Name *</label>
+                            <input type="text" id="contact-name" name="contact-name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-email">Email Address *</label>
+                            <input type="email" id="contact-email" name="contact-email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-subject">Subject *</label>
+                            <select id="contact-subject" name="contact-subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="registration">Registration Inquiry</option>
+                                <option value="program">Program/Schedule</option>
+                                <option value="research">Research Presentation</option>
+                                <option value="collaboration">Collaboration Opportunities</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-message">Your Message *</label>
+                            <textarea id="contact-message" name="contact-message" rows="4" required></textarea>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AI & Data Science Symposium</h3>
+                    <p>SAARC Nations Collaboration</p>
+                    <p>November 29, 2025</p>
+                    <p>Jaypee University of Information Technology, Solan, HP</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> sudhir.syal@juitsolan.in</p>
+                    <p><i class="fas fa-phone"></i> +91-9805627899</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Waknaghat, Solan - 173234, Himachal Pradesh</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Jaypee University of Information Technology. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Contact form functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contact-form');
+            
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Basic validation
+                const requiredFields = contactForm.querySelectorAll('[required]');
+                let valid = true;
+                
+                requiredFields.forEach(field => {
+                    if (!field.value.trim()) {
+                        valid = false;
+                        field.style.borderColor = 'var(--accent-color)';
+                    } else {
+                        field.style.borderColor = '';
+                    }
+                });
+                
+                if (valid) {
+                    // In a real application, you would send the data to a server here
+                    alert('Thank you for your message! We will get back to you soon.');
+                    contactForm.reset();
+                } else {
+                    alert('Please fill in all required fields.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
